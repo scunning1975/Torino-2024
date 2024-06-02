@@ -90,544 +90,554 @@
 \headcommand {\sectionentry {2}{Unconfoundedness}{40}{Unconfoundedness}{0}}
 \headcommand {\slideentry {2}{0}{1}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {2}{0}{2}{41/41}{}{0}}
+\headcommand {\beamer@subsectionpages {40}{40}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{41}{Aggregate target parameters}}
+\headcommand {\slideentry {2}{1}{1}{41/41}{Aggregate target parameters}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@subsectionpages {40}{41}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{42}{Aggregate treatment effect parameters}}
-\headcommand {\slideentry {2}{1}{1}{42/42}{Aggregate treatment effect parameters}{0}}
+\headcommand {\slideentry {2}{1}{2}{42/42}{Aggregate target parameters}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@subsectionpages {42}{42}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{43}{Assumptions}}
-\headcommand {\slideentry {2}{2}{1}{43/43}{Assumptions}{0}}
+\headcommand {\beamer@subsectionpages {41}{42}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{43}{Aggregate treatment effect parameters}}
+\headcommand {\slideentry {2}{2}{1}{43/43}{Aggregate treatment effect parameters}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {2}{2}{2}{44/44}{Assumptions}{0}}
+\headcommand {\beamer@subsectionpages {43}{43}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{44}{Assumptions}}
+\headcommand {\slideentry {2}{3}{1}{44/44}{Assumptions}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {2}{2}{3}{45/45}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{2}{45/45}{Assumptions}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {2}{2}{4}{46/46}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{3}{46/46}{Assumptions}{0}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {2}{2}{5}{47/47}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{4}{47/47}{Assumptions}{0}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {2}{2}{6}{48/48}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{5}{48/48}{Assumptions}{0}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {2}{2}{7}{49/49}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{6}{49/49}{Assumptions}{0}}
 \headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {2}{2}{8}{50/50}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{7}{50/50}{Assumptions}{0}}
 \headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {2}{2}{9}{51/51}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{8}{51/51}{Assumptions}{0}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {2}{2}{10}{52/52}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{9}{52/52}{Assumptions}{0}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {2}{2}{11}{53/53}{Assumptions}{0}}
+\headcommand {\slideentry {2}{3}{10}{53/53}{Assumptions}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {2}{2}{12}{55/55}{Assumptions}{0}}
-\headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@sectionpages {40}{55}}
-\headcommand {\beamer@subsectionpages {43}{55}}
-\headcommand {\sectionentry {3}{Estimators }{56}{Estimators }{0}}
-\headcommand {\slideentry {3}{0}{1}{56/56}{}{0}}
+\headcommand {\slideentry {2}{3}{11}{54/54}{Assumptions}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {2}{3}{12}{56/56}{Assumptions}{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\beamer@subsectionpages {56}{56}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{57}{Subclassification}}
-\headcommand {\slideentry {3}{1}{1}{57/57}{Subclassification}{0}}
+\headcommand {\beamer@sectionpages {40}{56}}
+\headcommand {\beamer@subsectionpages {44}{56}}
+\headcommand {\sectionentry {3}{Estimators }{57}{Estimators }{0}}
+\headcommand {\slideentry {3}{0}{1}{57/57}{}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\slideentry {3}{1}{2}{58/58}{Subclassification}{0}}
+\headcommand {\beamer@subsectionpages {57}{57}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{58}{Subclassification}}
+\headcommand {\slideentry {3}{1}{1}{58/58}{Subclassification}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\slideentry {3}{1}{3}{59/59}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{2}{59/59}{Subclassification}{0}}
 \headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {3}{1}{4}{60/60}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{3}{60/60}{Subclassification}{0}}
 \headcommand {\beamer@framepages {60}{60}}
-\headcommand {\slideentry {3}{1}{5}{61/61}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{4}{61/61}{Subclassification}{0}}
 \headcommand {\beamer@framepages {61}{61}}
-\headcommand {\slideentry {3}{1}{6}{62/62}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{5}{62/62}{Subclassification}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {3}{1}{7}{63/63}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{6}{63/63}{Subclassification}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\slideentry {3}{1}{8}{64/64}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{7}{64/64}{Subclassification}{0}}
 \headcommand {\beamer@framepages {64}{64}}
-\headcommand {\slideentry {3}{1}{9}{65/65}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{8}{65/65}{Subclassification}{0}}
 \headcommand {\beamer@framepages {65}{65}}
-\headcommand {\slideentry {3}{1}{10}{66/66}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{9}{66/66}{Subclassification}{0}}
 \headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {3}{1}{11}{67/67}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{10}{67/67}{Subclassification}{0}}
 \headcommand {\beamer@framepages {67}{67}}
-\headcommand {\slideentry {3}{1}{12}{68/68}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{11}{68/68}{Subclassification}{0}}
 \headcommand {\beamer@framepages {68}{68}}
-\headcommand {\slideentry {3}{1}{13}{69/69}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{12}{69/69}{Subclassification}{0}}
 \headcommand {\beamer@framepages {69}{69}}
-\headcommand {\slideentry {3}{1}{14}{70/70}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{13}{70/70}{Subclassification}{0}}
 \headcommand {\beamer@framepages {70}{70}}
-\headcommand {\slideentry {3}{1}{15}{71/71}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{14}{71/71}{Subclassification}{0}}
 \headcommand {\beamer@framepages {71}{71}}
-\headcommand {\slideentry {3}{1}{16}{72/72}{Subclassification}{0}}
+\headcommand {\slideentry {3}{1}{15}{72/72}{Subclassification}{0}}
 \headcommand {\beamer@framepages {72}{72}}
-\headcommand {\beamer@subsectionpages {57}{72}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{73}{Exact and Inexact Matching}}
-\headcommand {\slideentry {3}{2}{1}{73/73}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{1}{16}{73/73}{Subclassification}{0}}
 \headcommand {\beamer@framepages {73}{73}}
-\headcommand {\slideentry {3}{2}{2}{74/74}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{1}{17}{74/74}{Subclassification}{0}}
 \headcommand {\beamer@framepages {74}{74}}
-\headcommand {\slideentry {3}{2}{3}{75/75}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@subsectionpages {58}{74}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{75}{Exact and Inexact Matching}}
+\headcommand {\slideentry {3}{2}{1}{75/75}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {75}{75}}
-\headcommand {\slideentry {3}{2}{4}{76/76}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{2}{76/76}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {76}{76}}
-\headcommand {\slideentry {3}{2}{5}{77/77}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{3}{77/77}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {77}{77}}
-\headcommand {\slideentry {3}{2}{6}{78/78}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{4}{78/78}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {3}{2}{7}{79/79}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{5}{79/79}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {79}{79}}
-\headcommand {\slideentry {3}{2}{8}{80/80}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{6}{80/80}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {80}{80}}
-\headcommand {\slideentry {3}{2}{9}{81/81}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{7}{81/81}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {81}{81}}
-\headcommand {\slideentry {3}{2}{10}{82/82}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{8}{82/82}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {82}{82}}
-\headcommand {\slideentry {3}{2}{11}{83/83}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{9}{83/83}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {83}{83}}
-\headcommand {\slideentry {3}{2}{12}{84/84}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{10}{84/84}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {84}{84}}
-\headcommand {\slideentry {3}{2}{13}{85/85}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{11}{85/85}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {85}{85}}
-\headcommand {\slideentry {3}{2}{14}{86/86}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{12}{86/86}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {86}{86}}
-\headcommand {\slideentry {3}{2}{15}{87/87}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{13}{87/87}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {87}{87}}
-\headcommand {\slideentry {3}{2}{16}{88/88}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{14}{88/88}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {88}{88}}
-\headcommand {\slideentry {3}{2}{17}{89/90}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {89}{90}}
-\headcommand {\slideentry {3}{2}{18}{91/91}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{15}{89/89}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {89}{89}}
+\headcommand {\slideentry {3}{2}{16}{90/90}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {90}{90}}
+\headcommand {\slideentry {3}{2}{17}{91/91}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {91}{91}}
-\headcommand {\slideentry {3}{2}{19}{92/92}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{18}{92/92}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {92}{92}}
-\headcommand {\slideentry {3}{2}{20}{93/93}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {93}{93}}
-\headcommand {\slideentry {3}{2}{21}{94/94}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {94}{94}}
-\headcommand {\slideentry {3}{2}{22}{95/95}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{19}{93/94}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {93}{94}}
+\headcommand {\slideentry {3}{2}{20}{95/95}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {95}{95}}
-\headcommand {\slideentry {3}{2}{23}{96/96}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{21}{96/96}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {96}{96}}
-\headcommand {\slideentry {3}{2}{24}{97/97}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{22}{97/97}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {97}{97}}
-\headcommand {\slideentry {3}{2}{25}{98/98}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{23}{98/98}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {98}{98}}
-\headcommand {\slideentry {3}{2}{26}{99/99}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{24}{99/99}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {99}{99}}
-\headcommand {\slideentry {3}{2}{27}{100/100}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{25}{100/100}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {100}{100}}
-\headcommand {\slideentry {3}{2}{28}{101/101}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{26}{101/101}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {101}{101}}
-\headcommand {\slideentry {3}{2}{29}{102/102}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{27}{102/102}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {102}{102}}
-\headcommand {\slideentry {3}{2}{30}{103/103}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{28}{103/103}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {103}{103}}
-\headcommand {\slideentry {3}{2}{31}{104/104}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{29}{104/104}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {104}{104}}
-\headcommand {\slideentry {3}{2}{32}{105/105}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{30}{105/105}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {105}{105}}
-\headcommand {\slideentry {3}{2}{33}{106/106}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{31}{106/106}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {106}{106}}
-\headcommand {\slideentry {3}{2}{34}{107/114}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {107}{114}}
-\headcommand {\slideentry {3}{2}{35}{115/115}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {115}{115}}
-\headcommand {\slideentry {3}{2}{36}{116/116}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {116}{116}}
-\headcommand {\slideentry {3}{2}{37}{117/117}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {117}{117}}
-\headcommand {\slideentry {3}{2}{38}{118/118}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {118}{118}}
-\headcommand {\slideentry {3}{2}{39}{119/119}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{32}{107/107}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {107}{107}}
+\headcommand {\slideentry {3}{2}{33}{108/108}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {108}{108}}
+\headcommand {\slideentry {3}{2}{34}{109/109}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {109}{109}}
+\headcommand {\slideentry {3}{2}{35}{110/110}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {110}{110}}
+\headcommand {\slideentry {3}{2}{36}{111/118}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {111}{118}}
+\headcommand {\slideentry {3}{2}{37}{119/119}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {119}{119}}
-\headcommand {\slideentry {3}{2}{40}{120/120}{Exact and Inexact Matching}{0}}
+\headcommand {\slideentry {3}{2}{38}{120/120}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {120}{120}}
-\headcommand {\slideentry {3}{2}{41}{121/123}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {121}{123}}
+\headcommand {\slideentry {3}{2}{39}{121/121}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {121}{121}}
+\headcommand {\slideentry {3}{2}{40}{122/122}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {122}{122}}
+\headcommand {\slideentry {3}{2}{41}{123/123}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {123}{123}}
 \headcommand {\slideentry {3}{2}{42}{124/124}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {124}{124}}
-\headcommand {\slideentry {3}{2}{43}{125/125}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {125}{125}}
-\headcommand {\slideentry {3}{2}{44}{126/126}{Exact and Inexact Matching}{0}}
-\headcommand {\beamer@framepages {126}{126}}
-\headcommand {\beamer@subsectionpages {73}{126}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{127}{Propensity scores}}
-\headcommand {\slideentry {3}{3}{1}{127/127}{Propensity scores}{0}}
-\headcommand {\beamer@framepages {127}{127}}
-\headcommand {\slideentry {3}{3}{2}{128/128}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{2}{43}{125/127}{Exact and Inexact Matching}{0}}
+\headcommand {\beamer@framepages {125}{127}}
+\headcommand {\slideentry {3}{2}{44}{128/128}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {128}{128}}
-\headcommand {\slideentry {3}{3}{3}{129/129}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{2}{45}{129/129}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {129}{129}}
-\headcommand {\slideentry {3}{3}{4}{130/130}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{2}{46}{130/130}{Exact and Inexact Matching}{0}}
 \headcommand {\beamer@framepages {130}{130}}
-\headcommand {\slideentry {3}{3}{5}{131/131}{Propensity scores}{0}}
+\headcommand {\beamer@subsectionpages {75}{130}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{131}{Propensity scores}}
+\headcommand {\slideentry {3}{3}{1}{131/131}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {131}{131}}
-\headcommand {\slideentry {3}{3}{6}{132/132}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{2}{132/132}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {132}{132}}
-\headcommand {\slideentry {3}{3}{7}{133/133}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{3}{133/133}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {133}{133}}
-\headcommand {\slideentry {3}{3}{8}{134/134}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{4}{134/134}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {134}{134}}
-\headcommand {\slideentry {3}{3}{9}{135/135}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{5}{135/135}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {135}{135}}
-\headcommand {\slideentry {3}{3}{10}{136/136}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{6}{136/136}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {136}{136}}
-\headcommand {\slideentry {3}{3}{11}{137/137}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{7}{137/137}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {137}{137}}
-\headcommand {\slideentry {3}{3}{12}{138/138}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{8}{138/138}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {138}{138}}
-\headcommand {\slideentry {3}{3}{13}{139/139}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{9}{139/139}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {139}{139}}
-\headcommand {\slideentry {3}{3}{14}{140/140}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{10}{140/140}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {140}{140}}
-\headcommand {\slideentry {3}{3}{15}{141/141}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{11}{141/141}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {141}{141}}
-\headcommand {\slideentry {3}{3}{16}{142/142}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{12}{142/142}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {142}{142}}
-\headcommand {\slideentry {3}{3}{17}{143/143}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{13}{143/143}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {143}{143}}
-\headcommand {\slideentry {3}{3}{18}{144/144}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{14}{144/144}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {144}{144}}
-\headcommand {\slideentry {3}{3}{19}{145/145}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{15}{145/145}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {145}{145}}
-\headcommand {\slideentry {3}{3}{20}{146/146}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{16}{146/146}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {146}{146}}
-\headcommand {\slideentry {3}{3}{21}{147/147}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{17}{147/147}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {147}{147}}
-\headcommand {\slideentry {3}{3}{22}{148/148}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{18}{148/148}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {148}{148}}
-\headcommand {\slideentry {3}{3}{23}{149/149}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{19}{149/149}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {149}{149}}
-\headcommand {\slideentry {3}{3}{24}{150/150}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{20}{150/150}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {150}{150}}
-\headcommand {\slideentry {3}{3}{25}{151/151}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{21}{151/151}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {151}{151}}
-\headcommand {\slideentry {3}{3}{26}{152/152}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{22}{152/152}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {152}{152}}
-\headcommand {\slideentry {3}{3}{27}{153/153}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{23}{153/153}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {153}{153}}
-\headcommand {\slideentry {3}{3}{28}{154/154}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{24}{154/154}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {154}{154}}
-\headcommand {\slideentry {3}{3}{29}{155/155}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{25}{155/155}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {155}{155}}
-\headcommand {\slideentry {3}{3}{30}{156/156}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{26}{156/156}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {156}{156}}
-\headcommand {\slideentry {3}{3}{31}{157/157}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{27}{157/157}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {157}{157}}
-\headcommand {\slideentry {3}{3}{32}{158/158}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{28}{158/158}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {158}{158}}
-\headcommand {\slideentry {3}{3}{33}{159/159}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{29}{159/159}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {159}{159}}
-\headcommand {\slideentry {3}{3}{34}{160/160}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{30}{160/160}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {160}{160}}
-\headcommand {\slideentry {3}{3}{35}{161/161}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{31}{161/161}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {161}{161}}
-\headcommand {\slideentry {3}{3}{36}{162/162}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{32}{162/162}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {162}{162}}
-\headcommand {\slideentry {3}{3}{37}{163/163}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{33}{163/163}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {163}{163}}
-\headcommand {\slideentry {3}{3}{38}{164/164}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{34}{164/164}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {164}{164}}
-\headcommand {\slideentry {3}{3}{39}{165/165}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{35}{165/165}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {165}{165}}
-\headcommand {\slideentry {3}{3}{40}{166/166}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{36}{166/166}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {166}{166}}
-\headcommand {\slideentry {3}{3}{41}{167/167}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{37}{167/167}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {167}{167}}
-\headcommand {\slideentry {3}{3}{42}{168/168}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{38}{168/168}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {168}{168}}
-\headcommand {\slideentry {3}{3}{43}{169/169}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{39}{169/169}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {169}{169}}
-\headcommand {\slideentry {3}{3}{44}{170/170}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{40}{170/170}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {170}{170}}
-\headcommand {\slideentry {3}{3}{45}{171/171}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{41}{171/171}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {171}{171}}
-\headcommand {\slideentry {3}{3}{46}{172/172}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{42}{172/172}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {172}{172}}
-\headcommand {\slideentry {3}{3}{47}{173/173}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{43}{173/173}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {173}{173}}
-\headcommand {\slideentry {3}{3}{48}{174/174}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{44}{174/174}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {174}{174}}
-\headcommand {\slideentry {3}{3}{49}{175/175}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{45}{175/175}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {175}{175}}
-\headcommand {\slideentry {3}{3}{50}{176/176}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{46}{176/176}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {176}{176}}
-\headcommand {\slideentry {3}{3}{51}{177/177}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{47}{177/177}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {177}{177}}
-\headcommand {\slideentry {3}{3}{52}{178/178}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{48}{178/178}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {178}{178}}
-\headcommand {\slideentry {3}{3}{53}{179/179}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{49}{179/179}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {179}{179}}
-\headcommand {\slideentry {3}{3}{54}{180/180}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{50}{180/180}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {180}{180}}
-\headcommand {\slideentry {3}{3}{55}{181/181}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{51}{181/181}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {181}{181}}
-\headcommand {\slideentry {3}{3}{56}{182/182}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{52}{182/182}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {182}{182}}
-\headcommand {\slideentry {3}{3}{57}{183/183}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{53}{183/183}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {183}{183}}
-\headcommand {\slideentry {3}{3}{58}{184/184}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{54}{184/184}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {184}{184}}
-\headcommand {\slideentry {3}{3}{59}{185/185}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{55}{185/185}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {185}{185}}
-\headcommand {\slideentry {3}{3}{60}{186/186}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{56}{186/186}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {186}{186}}
-\headcommand {\slideentry {3}{3}{61}{187/187}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{57}{187/187}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {187}{187}}
-\headcommand {\slideentry {3}{3}{62}{188/188}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{58}{188/188}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {188}{188}}
-\headcommand {\slideentry {3}{3}{63}{189/189}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{59}{189/189}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {189}{189}}
-\headcommand {\slideentry {3}{3}{64}{190/190}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{60}{190/190}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {190}{190}}
-\headcommand {\slideentry {3}{3}{65}{191/191}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{61}{191/191}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {191}{191}}
-\headcommand {\slideentry {3}{3}{66}{192/192}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{62}{192/192}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {192}{192}}
-\headcommand {\slideentry {3}{3}{67}{193/193}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{63}{193/193}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {193}{193}}
-\headcommand {\slideentry {3}{3}{68}{194/194}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{64}{194/194}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {194}{194}}
-\headcommand {\slideentry {3}{3}{69}{195/195}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{65}{195/195}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {195}{195}}
-\headcommand {\slideentry {3}{3}{70}{196/196}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{66}{196/196}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {196}{196}}
-\headcommand {\slideentry {3}{3}{71}{197/197}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{67}{197/197}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {197}{197}}
-\headcommand {\slideentry {3}{3}{72}{198/198}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{68}{198/198}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {198}{198}}
-\headcommand {\slideentry {3}{3}{73}{199/199}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{69}{199/199}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {199}{199}}
-\headcommand {\slideentry {3}{3}{74}{200/200}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{70}{200/200}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {200}{200}}
-\headcommand {\slideentry {3}{3}{75}{201/201}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{71}{201/201}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {201}{201}}
-\headcommand {\slideentry {3}{3}{76}{202/202}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{72}{202/202}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {202}{202}}
-\headcommand {\slideentry {3}{3}{77}{203/203}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{73}{203/203}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {203}{203}}
-\headcommand {\slideentry {3}{3}{78}{204/204}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{74}{204/204}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {204}{204}}
-\headcommand {\slideentry {3}{3}{79}{205/205}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{75}{205/205}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {205}{205}}
-\headcommand {\slideentry {3}{3}{80}{206/206}{Propensity scores}{0}}
+\headcommand {\slideentry {3}{3}{76}{206/206}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {206}{206}}
-\headcommand {\beamer@subsectionpages {127}{206}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{207}{Regressions}}
-\headcommand {\slideentry {3}{4}{1}{207/207}{Regressions}{0}}
+\headcommand {\slideentry {3}{3}{77}{207/207}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {207}{207}}
-\headcommand {\slideentry {3}{4}{2}{208/208}{Regressions}{0}}
+\headcommand {\slideentry {3}{3}{78}{208/208}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {208}{208}}
-\headcommand {\slideentry {3}{4}{3}{209/209}{Regressions}{0}}
+\headcommand {\slideentry {3}{3}{79}{209/209}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {209}{209}}
-\headcommand {\slideentry {3}{4}{4}{210/210}{Regressions}{0}}
+\headcommand {\slideentry {3}{3}{80}{210/210}{Propensity scores}{0}}
 \headcommand {\beamer@framepages {210}{210}}
-\headcommand {\slideentry {3}{4}{5}{211/211}{Regressions}{0}}
+\headcommand {\beamer@subsectionpages {131}{210}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{211}{Regressions}}
+\headcommand {\slideentry {3}{4}{1}{211/211}{Regressions}{0}}
 \headcommand {\beamer@framepages {211}{211}}
-\headcommand {\slideentry {3}{4}{6}{212/212}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{2}{212/212}{Regressions}{0}}
 \headcommand {\beamer@framepages {212}{212}}
-\headcommand {\slideentry {3}{4}{7}{213/213}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{3}{213/213}{Regressions}{0}}
 \headcommand {\beamer@framepages {213}{213}}
-\headcommand {\slideentry {3}{4}{8}{214/214}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{4}{214/214}{Regressions}{0}}
 \headcommand {\beamer@framepages {214}{214}}
-\headcommand {\slideentry {3}{4}{9}{215/215}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{5}{215/215}{Regressions}{0}}
 \headcommand {\beamer@framepages {215}{215}}
-\headcommand {\slideentry {3}{4}{10}{216/216}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{6}{216/216}{Regressions}{0}}
 \headcommand {\beamer@framepages {216}{216}}
-\headcommand {\slideentry {3}{4}{11}{217/217}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{7}{217/217}{Regressions}{0}}
 \headcommand {\beamer@framepages {217}{217}}
-\headcommand {\slideentry {3}{4}{12}{218/218}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{8}{218/218}{Regressions}{0}}
 \headcommand {\beamer@framepages {218}{218}}
-\headcommand {\slideentry {3}{4}{13}{219/219}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{9}{219/219}{Regressions}{0}}
 \headcommand {\beamer@framepages {219}{219}}
-\headcommand {\slideentry {3}{4}{14}{220/220}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{10}{220/220}{Regressions}{0}}
 \headcommand {\beamer@framepages {220}{220}}
-\headcommand {\slideentry {3}{4}{15}{221/221}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{11}{221/221}{Regressions}{0}}
 \headcommand {\beamer@framepages {221}{221}}
-\headcommand {\slideentry {3}{4}{16}{222/222}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{12}{222/222}{Regressions}{0}}
 \headcommand {\beamer@framepages {222}{222}}
-\headcommand {\slideentry {3}{4}{17}{223/223}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{13}{223/223}{Regressions}{0}}
 \headcommand {\beamer@framepages {223}{223}}
-\headcommand {\slideentry {3}{4}{18}{224/224}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{14}{224/224}{Regressions}{0}}
 \headcommand {\beamer@framepages {224}{224}}
-\headcommand {\slideentry {3}{4}{19}{225/225}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{15}{225/225}{Regressions}{0}}
 \headcommand {\beamer@framepages {225}{225}}
-\headcommand {\slideentry {3}{4}{20}{226/226}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{16}{226/226}{Regressions}{0}}
 \headcommand {\beamer@framepages {226}{226}}
-\headcommand {\slideentry {3}{4}{21}{227/227}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{17}{227/227}{Regressions}{0}}
 \headcommand {\beamer@framepages {227}{227}}
-\headcommand {\slideentry {3}{4}{22}{228/228}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{18}{228/228}{Regressions}{0}}
 \headcommand {\beamer@framepages {228}{228}}
-\headcommand {\slideentry {3}{4}{23}{229/229}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{19}{229/229}{Regressions}{0}}
 \headcommand {\beamer@framepages {229}{229}}
-\headcommand {\slideentry {3}{4}{24}{230/230}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{20}{230/230}{Regressions}{0}}
 \headcommand {\beamer@framepages {230}{230}}
-\headcommand {\slideentry {3}{4}{25}{231/231}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{21}{231/231}{Regressions}{0}}
 \headcommand {\beamer@framepages {231}{231}}
-\headcommand {\slideentry {3}{4}{26}{232/232}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{22}{232/232}{Regressions}{0}}
 \headcommand {\beamer@framepages {232}{232}}
-\headcommand {\slideentry {3}{4}{27}{233/233}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{23}{233/233}{Regressions}{0}}
 \headcommand {\beamer@framepages {233}{233}}
-\headcommand {\slideentry {3}{4}{28}{234/234}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{24}{234/234}{Regressions}{0}}
 \headcommand {\beamer@framepages {234}{234}}
-\headcommand {\slideentry {3}{4}{29}{235/235}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{25}{235/235}{Regressions}{0}}
 \headcommand {\beamer@framepages {235}{235}}
-\headcommand {\slideentry {3}{4}{30}{236/236}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{26}{236/236}{Regressions}{0}}
 \headcommand {\beamer@framepages {236}{236}}
-\headcommand {\slideentry {3}{4}{31}{237/237}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{27}{237/237}{Regressions}{0}}
 \headcommand {\beamer@framepages {237}{237}}
-\headcommand {\slideentry {3}{4}{32}{238/238}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{28}{238/238}{Regressions}{0}}
 \headcommand {\beamer@framepages {238}{238}}
-\headcommand {\slideentry {3}{4}{33}{239/239}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{29}{239/239}{Regressions}{0}}
 \headcommand {\beamer@framepages {239}{239}}
-\headcommand {\slideentry {3}{4}{34}{240/240}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{30}{240/240}{Regressions}{0}}
 \headcommand {\beamer@framepages {240}{240}}
-\headcommand {\slideentry {3}{4}{35}{241/241}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{31}{241/241}{Regressions}{0}}
 \headcommand {\beamer@framepages {241}{241}}
-\headcommand {\slideentry {3}{4}{36}{242/242}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{32}{242/242}{Regressions}{0}}
 \headcommand {\beamer@framepages {242}{242}}
-\headcommand {\slideentry {3}{4}{37}{243/243}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{33}{243/243}{Regressions}{0}}
 \headcommand {\beamer@framepages {243}{243}}
-\headcommand {\slideentry {3}{4}{38}{244/244}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{34}{244/244}{Regressions}{0}}
 \headcommand {\beamer@framepages {244}{244}}
-\headcommand {\slideentry {3}{4}{39}{245/245}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{35}{245/245}{Regressions}{0}}
 \headcommand {\beamer@framepages {245}{245}}
-\headcommand {\slideentry {3}{4}{40}{246/246}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{36}{246/246}{Regressions}{0}}
 \headcommand {\beamer@framepages {246}{246}}
-\headcommand {\slideentry {3}{4}{41}{247/247}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{37}{247/247}{Regressions}{0}}
 \headcommand {\beamer@framepages {247}{247}}
-\headcommand {\slideentry {3}{4}{42}{248/248}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{38}{248/248}{Regressions}{0}}
 \headcommand {\beamer@framepages {248}{248}}
-\headcommand {\slideentry {3}{4}{43}{249/249}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{39}{249/249}{Regressions}{0}}
 \headcommand {\beamer@framepages {249}{249}}
-\headcommand {\slideentry {3}{4}{44}{250/250}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{40}{250/250}{Regressions}{0}}
 \headcommand {\beamer@framepages {250}{250}}
-\headcommand {\slideentry {3}{4}{45}{251/251}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{41}{251/251}{Regressions}{0}}
 \headcommand {\beamer@framepages {251}{251}}
-\headcommand {\slideentry {3}{4}{46}{252/252}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{42}{252/252}{Regressions}{0}}
 \headcommand {\beamer@framepages {252}{252}}
-\headcommand {\slideentry {3}{4}{47}{253/253}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{43}{253/253}{Regressions}{0}}
 \headcommand {\beamer@framepages {253}{253}}
-\headcommand {\slideentry {3}{4}{48}{254/254}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{44}{254/254}{Regressions}{0}}
 \headcommand {\beamer@framepages {254}{254}}
-\headcommand {\slideentry {3}{4}{49}{255/255}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{45}{255/255}{Regressions}{0}}
 \headcommand {\beamer@framepages {255}{255}}
-\headcommand {\slideentry {3}{4}{50}{256/256}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{46}{256/256}{Regressions}{0}}
 \headcommand {\beamer@framepages {256}{256}}
-\headcommand {\slideentry {3}{4}{51}{257/257}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{47}{257/257}{Regressions}{0}}
 \headcommand {\beamer@framepages {257}{257}}
-\headcommand {\slideentry {3}{4}{52}{258/258}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{48}{258/258}{Regressions}{0}}
 \headcommand {\beamer@framepages {258}{258}}
-\headcommand {\slideentry {3}{4}{53}{259/259}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{49}{259/259}{Regressions}{0}}
 \headcommand {\beamer@framepages {259}{259}}
-\headcommand {\slideentry {3}{4}{54}{260/260}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{50}{260/260}{Regressions}{0}}
 \headcommand {\beamer@framepages {260}{260}}
-\headcommand {\slideentry {3}{4}{55}{261/261}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{51}{261/261}{Regressions}{0}}
 \headcommand {\beamer@framepages {261}{261}}
-\headcommand {\slideentry {3}{4}{56}{262/262}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{52}{262/262}{Regressions}{0}}
 \headcommand {\beamer@framepages {262}{262}}
-\headcommand {\slideentry {3}{4}{57}{263/263}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{53}{263/263}{Regressions}{0}}
 \headcommand {\beamer@framepages {263}{263}}
-\headcommand {\slideentry {3}{4}{58}{264/264}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{54}{264/264}{Regressions}{0}}
 \headcommand {\beamer@framepages {264}{264}}
-\headcommand {\slideentry {3}{4}{59}{265/265}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{55}{265/265}{Regressions}{0}}
 \headcommand {\beamer@framepages {265}{265}}
-\headcommand {\slideentry {3}{4}{60}{266/266}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{56}{266/266}{Regressions}{0}}
 \headcommand {\beamer@framepages {266}{266}}
-\headcommand {\slideentry {3}{4}{61}{267/267}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{57}{267/267}{Regressions}{0}}
 \headcommand {\beamer@framepages {267}{267}}
-\headcommand {\slideentry {3}{4}{62}{268/268}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{58}{268/268}{Regressions}{0}}
 \headcommand {\beamer@framepages {268}{268}}
-\headcommand {\slideentry {3}{4}{63}{269/269}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{59}{269/269}{Regressions}{0}}
 \headcommand {\beamer@framepages {269}{269}}
-\headcommand {\slideentry {3}{4}{64}{270/270}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{60}{270/270}{Regressions}{0}}
 \headcommand {\beamer@framepages {270}{270}}
-\headcommand {\slideentry {3}{4}{65}{271/271}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{61}{271/271}{Regressions}{0}}
 \headcommand {\beamer@framepages {271}{271}}
-\headcommand {\slideentry {3}{4}{66}{272/272}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{62}{272/272}{Regressions}{0}}
 \headcommand {\beamer@framepages {272}{272}}
-\headcommand {\slideentry {3}{4}{67}{273/273}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{63}{273/273}{Regressions}{0}}
 \headcommand {\beamer@framepages {273}{273}}
-\headcommand {\slideentry {3}{4}{68}{274/274}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{64}{274/274}{Regressions}{0}}
 \headcommand {\beamer@framepages {274}{274}}
-\headcommand {\slideentry {3}{4}{69}{275/275}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{65}{275/275}{Regressions}{0}}
 \headcommand {\beamer@framepages {275}{275}}
-\headcommand {\slideentry {3}{4}{70}{276/276}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{66}{276/276}{Regressions}{0}}
 \headcommand {\beamer@framepages {276}{276}}
-\headcommand {\slideentry {3}{4}{71}{277/277}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{67}{277/277}{Regressions}{0}}
 \headcommand {\beamer@framepages {277}{277}}
-\headcommand {\slideentry {3}{4}{72}{278/278}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{68}{278/278}{Regressions}{0}}
 \headcommand {\beamer@framepages {278}{278}}
-\headcommand {\slideentry {3}{4}{73}{279/279}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{69}{279/279}{Regressions}{0}}
 \headcommand {\beamer@framepages {279}{279}}
-\headcommand {\slideentry {3}{4}{74}{280/280}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{70}{280/280}{Regressions}{0}}
 \headcommand {\beamer@framepages {280}{280}}
-\headcommand {\slideentry {3}{4}{75}{281/281}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{71}{281/281}{Regressions}{0}}
 \headcommand {\beamer@framepages {281}{281}}
-\headcommand {\slideentry {3}{4}{76}{282/282}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{72}{282/282}{Regressions}{0}}
 \headcommand {\beamer@framepages {282}{282}}
-\headcommand {\slideentry {3}{4}{77}{283/283}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{73}{283/283}{Regressions}{0}}
 \headcommand {\beamer@framepages {283}{283}}
-\headcommand {\slideentry {3}{4}{78}{284/284}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{74}{284/284}{Regressions}{0}}
 \headcommand {\beamer@framepages {284}{284}}
-\headcommand {\slideentry {3}{4}{79}{285/285}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{75}{285/285}{Regressions}{0}}
 \headcommand {\beamer@framepages {285}{285}}
-\headcommand {\slideentry {3}{4}{80}{286/286}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{76}{286/286}{Regressions}{0}}
 \headcommand {\beamer@framepages {286}{286}}
-\headcommand {\slideentry {3}{4}{81}{287/287}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{77}{287/287}{Regressions}{0}}
 \headcommand {\beamer@framepages {287}{287}}
-\headcommand {\slideentry {3}{4}{82}{288/288}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{78}{288/288}{Regressions}{0}}
 \headcommand {\beamer@framepages {288}{288}}
-\headcommand {\slideentry {3}{4}{83}{289/289}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{79}{289/289}{Regressions}{0}}
 \headcommand {\beamer@framepages {289}{289}}
-\headcommand {\slideentry {3}{4}{84}{290/290}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{80}{290/290}{Regressions}{0}}
 \headcommand {\beamer@framepages {290}{290}}
-\headcommand {\slideentry {3}{4}{85}{291/291}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{81}{291/291}{Regressions}{0}}
 \headcommand {\beamer@framepages {291}{291}}
-\headcommand {\slideentry {3}{4}{86}{292/292}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{82}{292/292}{Regressions}{0}}
 \headcommand {\beamer@framepages {292}{292}}
-\headcommand {\slideentry {3}{4}{87}{293/293}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{83}{293/293}{Regressions}{0}}
 \headcommand {\beamer@framepages {293}{293}}
-\headcommand {\slideentry {3}{4}{88}{294/294}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{84}{294/294}{Regressions}{0}}
 \headcommand {\beamer@framepages {294}{294}}
-\headcommand {\slideentry {3}{4}{89}{295/295}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{85}{295/295}{Regressions}{0}}
 \headcommand {\beamer@framepages {295}{295}}
-\headcommand {\slideentry {3}{4}{90}{296/296}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{86}{296/296}{Regressions}{0}}
 \headcommand {\beamer@framepages {296}{296}}
-\headcommand {\slideentry {3}{4}{91}{297/297}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{87}{297/297}{Regressions}{0}}
 \headcommand {\beamer@framepages {297}{297}}
-\headcommand {\slideentry {3}{4}{92}{298/298}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{88}{298/298}{Regressions}{0}}
 \headcommand {\beamer@framepages {298}{298}}
-\headcommand {\slideentry {3}{4}{93}{299/299}{Regressions}{0}}
+\headcommand {\slideentry {3}{4}{89}{299/299}{Regressions}{0}}
 \headcommand {\beamer@framepages {299}{299}}
-\headcommand {\beamer@sectionpages {56}{299}}
-\headcommand {\beamer@subsectionpages {207}{299}}
-\headcommand {\sectionentry {4}{Concluding remarks}{300}{Concluding remarks}{0}}
-\headcommand {\slideentry {4}{0}{1}{300/300}{}{0}}
+\headcommand {\slideentry {3}{4}{90}{300/300}{Regressions}{0}}
 \headcommand {\beamer@framepages {300}{300}}
-\headcommand {\slideentry {4}{0}{2}{301/301}{}{0}}
+\headcommand {\slideentry {3}{4}{91}{301/301}{Regressions}{0}}
 \headcommand {\beamer@framepages {301}{301}}
-\headcommand {\slideentry {4}{0}{3}{302/302}{}{0}}
+\headcommand {\slideentry {3}{4}{92}{302/302}{Regressions}{0}}
 \headcommand {\beamer@framepages {302}{302}}
-\headcommand {\slideentry {4}{0}{4}{303/303}{}{0}}
+\headcommand {\slideentry {3}{4}{93}{303/303}{Regressions}{0}}
 \headcommand {\beamer@framepages {303}{303}}
-\headcommand {\slideentry {4}{0}{5}{304/304}{}{0}}
+\headcommand {\beamer@sectionpages {57}{303}}
+\headcommand {\beamer@subsectionpages {211}{303}}
+\headcommand {\sectionentry {4}{Concluding remarks}{304}{Concluding remarks}{0}}
+\headcommand {\slideentry {4}{0}{1}{304/304}{}{0}}
 \headcommand {\beamer@framepages {304}{304}}
-\headcommand {\slideentry {4}{0}{6}{305/305}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{305/305}{}{0}}
 \headcommand {\beamer@framepages {305}{305}}
-\headcommand {\slideentry {4}{0}{7}{306/306}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{306/306}{}{0}}
 \headcommand {\beamer@framepages {306}{306}}
-\headcommand {\slideentry {4}{0}{8}{307/307}{}{0}}
+\headcommand {\slideentry {4}{0}{4}{307/307}{}{0}}
 \headcommand {\beamer@framepages {307}{307}}
-\headcommand {\slideentry {4}{0}{9}{308/308}{}{0}}
+\headcommand {\slideentry {4}{0}{5}{308/308}{}{0}}
 \headcommand {\beamer@framepages {308}{308}}
-\headcommand {\slideentry {4}{0}{10}{309/309}{}{0}}
+\headcommand {\slideentry {4}{0}{6}{309/309}{}{0}}
 \headcommand {\beamer@framepages {309}{309}}
-\headcommand {\slideentry {4}{0}{11}{310/310}{}{0}}
+\headcommand {\slideentry {4}{0}{7}{310/310}{}{0}}
 \headcommand {\beamer@framepages {310}{310}}
-\headcommand {\beamer@partpages {1}{310}}
-\headcommand {\beamer@subsectionpages {300}{310}}
-\headcommand {\beamer@sectionpages {300}{310}}
-\headcommand {\beamer@documentpages {310}}
-\headcommand {\gdef \inserttotalframenumber {299}}
+\headcommand {\slideentry {4}{0}{8}{311/311}{}{0}}
+\headcommand {\beamer@framepages {311}{311}}
+\headcommand {\slideentry {4}{0}{9}{312/312}{}{0}}
+\headcommand {\beamer@framepages {312}{312}}
+\headcommand {\slideentry {4}{0}{10}{313/313}{}{0}}
+\headcommand {\beamer@framepages {313}{313}}
+\headcommand {\slideentry {4}{0}{11}{314/314}{}{0}}
+\headcommand {\beamer@framepages {314}{314}}
+\headcommand {\beamer@partpages {1}{314}}
+\headcommand {\beamer@subsectionpages {304}{314}}
+\headcommand {\beamer@sectionpages {304}{314}}
+\headcommand {\beamer@documentpages {314}}
+\headcommand {\gdef \inserttotalframenumber {303}}
