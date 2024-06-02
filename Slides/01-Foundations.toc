@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Overview}{2}{0}{1}
+\beamer@sectionintoc {2}{Causality Fallacies}{8}{0}{2}
+\beamer@sectionintoc {3}{Brief (and selected) history of causal inference}{17}{0}{3}
+\beamer@sectionintoc {4}{Independence and Selection Bias}{49}{0}{4}

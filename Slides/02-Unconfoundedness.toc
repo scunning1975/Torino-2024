@@ -1,0 +1,14 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{Selecting Covariates Using Directed Acyclic Graphs}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Graph notation}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Backdoor criterion}{15}{0}{1}
+\beamer@subsectionintoc {1}{3}{Collider bias}{24}{0}{1}
+\beamer@sectionintoc {2}{Unconfoundedness}{40}{0}{2}
+\beamer@subsectionintoc {2}{1}{Aggregate treatment effect parameters}{42}{0}{2}
+\beamer@subsectionintoc {2}{2}{Assumptions}{43}{0}{2}
+\beamer@sectionintoc {3}{Estimators }{56}{0}{3}
+\beamer@subsectionintoc {3}{1}{Subclassification}{57}{0}{3}
+\beamer@subsectionintoc {3}{2}{Exact and Inexact Matching}{73}{0}{3}
+\beamer@subsectionintoc {3}{3}{Propensity scores}{127}{0}{3}
+\beamer@subsectionintoc {3}{4}{Regressions}{207}{0}{3}
+\beamer@sectionintoc {4}{Concluding remarks}{300}{0}{4}
