@@ -14,7 +14,7 @@
 **Note**: This syllabus may change, but I am making an effort to keep it fixed.
 
 ## Course Description
-Unconfoundedness is a collection of methods used when selection into treatment occurs through a set of known and quantified confounders. These methods can involve a collection of covariates satisfying overlap conditions or a running variable as in regression discontinuity design. This week, we will explore both methods, focusing on heterogeneous treatment effects, regression, and matching using both coding examples and lectures.
+Selection on observables is an approach to causal inference that takes advantage of a known and quantified variable that assigns units to treatment or control.  We will cover two methods in that category: the unconfoundedness methods and the regression discontinuity design methods.  Unconfoundedness methods involve estimating aggregate causal parameters using the known and quantified confounders directly through the construction of weights, matching techniques or regression adjustment.  Regression discontinuity design is a method where the selection into treatment is based on an observable variable called the "running variable".  We will explore both methods, focusing on heterogeneous treatment effects, regression, and matching using both coding examples and lectures.
 
 ## Prerequisites
 Econometrics or equivalent.
