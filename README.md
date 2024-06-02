@@ -1,7 +1,7 @@
-# Unconfoundedness and Regression Discontinuity Course Syllabus
+# Selection on Observables: Unconfoundedness and Regression Discontinuity Course Syllabus
 
 ## Course Information
-**Course Title**: Unconfoundedness and Regression Discontinuity
+**Course Title**: Selection on Observables: Unconfoundedness and Regression Discontinuity
 
 **Dates**: Monday, June 3rd to Friday, June 7th
 
