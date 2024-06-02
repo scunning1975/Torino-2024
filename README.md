@@ -29,16 +29,9 @@ Econometrics or equivalent.
 - Cunningham, Scott. _Causal Inference: the Mixtape_ (Yale University Press). Available for free on [Scott Cunningham's website](https://mixtape.scunning.com).
 
 ## Classwork and Final Grade
-- **Crits (30%)**: Four assignments where you will critique podcast interviews with authors of seminal papers on topics we cover. Two assignments will be about unconfoundedness and two about regression discontinuity design.
-- **Problem Sets (40%)**: TBD
-- **Exams (30%)**: TBD
-
-## Final Grade Scales
-- A: 90-100
-- B: 70-89.99
-- C+: 50-69.99
-- F: < 49.99
-
+- **Crits**: Three assignments where you will critique podcast interviews with winners of the 2021 Nobel Prize in Economics. 
+- **Class Participation**: Come to class, take notes, read the lecture slides ahead of time, read the chapters in the Mixtape
+   
 ## Course Schedule
 - **Monday, June 3rd**: 14:00 to 17:00 (3 hours, no breaks)
 - **Tuesday, June 4th**:
