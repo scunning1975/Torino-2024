@@ -858,7 +858,7 @@ Talent and beauty can become correlated even though they are independent
 	\item Confounders may or may not be observed,
 	\item Confounders create backdoor paths between the treatment and the outcome
 	\item Closing all backdoor paths to satisfy the backdoor criterion means that all remaining variation in the treatment is random
-	\item Randomizing the treatment allows us to estimate causal effects -- but we must have the correct confounders
+	\item One such set of design methods that utilize observed confounders to estimate causal effects are called ``unconfoundedness'' methods
 	\end{itemize}
 
 \end{frame}
@@ -870,8 +870,8 @@ Talent and beauty can become correlated even though they are independent
 \begin{frame}{Defining the target parameter comes first}
 
 \begin{itemize}
-\item Covariate adjustment strategies like regression or matching can identify average treatment effects (ATE, ATT, ATU)
-\item With constant treatment effects, they are the same ($ATT=ATE=ATU$) so methods that find one find all of them
+\item Unconfoundedness methods include regression, weights or matching and they can be used to estimate average treatment effects like ATE, ATT, ATU
+\item With constant treatment effects, they are the same ($ATE=ATT=ATU$) so methods that find one find all of them
 \item Heterogenous treatment effects implies these will be different parameters, and thus different methods are needed
 \item You must decide ahead of time which parameter you want to know in order to properly estimate it
 
@@ -890,7 +890,7 @@ Talent and beauty can become correlated even though they are independent
 \begin{itemize}
 \item Every aggregate causal parameter is missing some potential outcome (e.g., ATT is missing $E[Y^0|D=1]$
 \item If we are going to estimate the ATT, then it must be we are estimating $E[Y^0|D=1]$ somehow, but how?
-\item If we are using controls, then we in some way, shape or form ``filling in'' the missing counterfactual using the covariates the comparison group
+\item If we are using observed confounders, then we are imputing the missing counterfactual using covariates in the comparison group
 \item ``At some level, all methods for causal inference can be viewed as imputation methods, although some more explicitly than others.'' -- Imbens and Rubin (2015)
 
 \end{itemize}
@@ -903,13 +903,14 @@ Talent and beauty can become correlated even though they are independent
 
 \begin{itemize}
 
-\item When attempting to estimate aggregate causal parameters using covariate adjustment, there are two assumptions
+\item When attempting to estimate aggregate causal parameters using covariate adjustment, we can do so with only two assumptions
 
 	\begin{enumerate}
 	\item \textbf{Unconfoundedness}:  fairly controversial to some because of what it implies about human behavior
 	\item \textbf{Common support}: since most people stop at assumption 1, there's much less attention to common support
 	\end{enumerate}
 \item Today we will assume you satisfy unconfoundedness, and therefore our focus is on violations of assumption 2
+\item Assuming constant treatment effects is unnecessary
 \end{itemize}
 
 \end{frame}
