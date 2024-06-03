@@ -10,6 +10,6 @@
 \beamer@sectionintoc {3}{Estimators }{57}{0}{3}
 \beamer@subsectionintoc {3}{1}{Subclassification}{58}{0}{3}
 \beamer@subsectionintoc {3}{2}{Exact and Inexact Matching}{75}{0}{3}
-\beamer@subsectionintoc {3}{3}{Propensity scores}{131}{0}{3}
-\beamer@subsectionintoc {3}{4}{Regressions}{211}{0}{3}
-\beamer@sectionintoc {4}{Concluding remarks}{304}{0}{4}
+\beamer@subsectionintoc {3}{3}{Propensity scores}{129}{0}{3}
+\beamer@subsectionintoc {3}{4}{Regressions}{209}{0}{3}
+\beamer@sectionintoc {4}{Concluding remarks}{302}{0}{4}

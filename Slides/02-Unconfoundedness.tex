@@ -1484,47 +1484,9 @@ If we can't find one, it means common support failed, the estimate would need to
 
 \begin{frame}{Training example (unmatched)}
 
-\begin{table}[htb]\tiny\index{rolling!3}
-\centering
-\tiny
-\begin{tabular}{ccc|ccc}
-\toprule
-	\multicolumn{3}{c}{\textbf{Trainees}}&
-	\multicolumn{3}{c}{\textbf{Non-Trainees}}\\
-	\multicolumn{1}{c}{Unit}&
-	\multicolumn{1}{c}{Age}&
-	\multicolumn{1}{c}{Earnings}&
-	\multicolumn{1}{c}{Unit}&
-	\multicolumn{1}{c}{Age}&
-	\multicolumn{1}{c}{Earnings}\\
-\midrule
-1 & 	31 & \$	26,629 & 	1 & 	29 & \$	23,178 \\
-2 & 	31 & \$	26,633 & 	2 & 	39 &\$ 	33,817 \\
-3 & 	18 & 	\$	15,324 & 	3 & 	33 & \$	27,061 \\
-4 & 	32 &\$ 	27,717 & 	4 & 	46 & \$	43,109 \\
-5 & 	32 & \$	27,725 & 	5 & 	32 & \$	26,040 \\
-6 & 	25 & \$	20,762 & 	6 & 	39 & \$	33,815 \\
-7 & 	32 &\$ 	27,716 & 	7 & 	31 & \$	25,052 \\
-8 & 	32 & \$	27,719 & 	8 & 	33 & \$	27,060 \\
-9 & 	20 & \$	16,723 & 	9 & 	25 &\$ 	19,787 \\
-10 & 	29 & \$	24,552 & 	10 & 	29 &\$ 	23,173 \\
-&&&			11 & 	27 & 	21,416 \\
-&&&			12 & 	32 & 	26,040 \\
-&&&			13 & 	20 & 	16,246 \\
-&&&			14 & 	41 & 	36,316 \\
-&&&			15 & 	18 & 	15,046 \\
-&&&			16 & 	29 & 	23,178 \\
-&&&			17 & 	49 & 	47,559 \\
-&&&			18 & 	32 & 	26,040 \\
-&&&			19 & 	27 & 	21,418 \\
-&&&			20 & 	46 & 	43,109 \\
-\midrule
-Mean & 	28.2 & 	\$24,150 & 	Mean & 	32.85 & 	\$27,923 \\
-\bottomrule
-\end{tabular}
-\end{table}
-\tiny
-$SDO = \$24,150-27,923 = -\$3,773$
+\begin{figure}[!t]\centering
+\includegraphics[scale=0.35]{./lecture_includes/raw_example}
+\end{figure}
 
 
 \end{frame}
@@ -1533,19 +1495,12 @@ $SDO = \$24,150-27,923 = -\$3,773$
 \begin{frame}{Age Imbalance}
 
 \begin{figure}[!t]\centering
-\caption{Age distribution of a job training program's trainees (figure a) versus a sample of workers who were not enrolled in the trainee program (figure b).}
-\includegraphics[scale=0.075]{./lecture_includes/trainees.jpg}
+\caption{Age distribution of a job training program's trainees (green) versus a sample of workers who were not enrolled in the trainee program (white).}
+\includegraphics[scale=0.20]{./lecture_includes/age_match.png}
 \end{figure}
 
 \end{frame}
 
-\begin{frame}{Age Imbalance}
-
-\begin{figure}[!t]\centering
-\includegraphics[scale=0.075]{./lecture_includes/nontrainees}
-\end{figure}
-
-\end{frame}
 
 \begin{frame}{Exact matching}
 
@@ -1602,37 +1557,10 @@ Notice that we are only dealing with $Y^0_i$ by matching; The $Y^1_i$ is fine as
 
 \begin{frame}{Matched sample}
 
-\begin{table}[htb]\small\index{rolling!3}
-\caption{Training example with matched sample using exact matching}
-\centering
-\begin{tabular}{ccc|ccc}
-\toprule
-	\multicolumn{3}{c}{\textbf{Trainees}}&
-	\multicolumn{3}{c}{\textbf{Matched Sample}}\\
-	\multicolumn{1}{c}{Unit}&
-	\multicolumn{1}{c}{Age}&
-	\multicolumn{1}{c}{Earnings}&
-	\multicolumn{1}{c}{Matched Unit}&
-	\multicolumn{1}{c}{Age}&
-	\multicolumn{1}{c}{Earnings}\\
-\midrule
-1&	31&	\$26,693&	2&	31&	\$25,052 \\
-2&	31&	\$26,691&	2&	31&	\$25,052 \\
-3&	18&	\$15,392&	18&	18&	\$15,046 \\
-4&	32&	\$27,776&	5&	32&	\$26,045 \\
-5&	32&	\$27,779&	5&	32&	\$26,045 \\
-6&	25&	\$20,821&	4&	25&	\$19,787 \\
-7&	32&	\$27,778&	5&	32&	\$26,045 \\
-8&	32&	\$27,780&	5&	32&	\$26,045 \\
-9&	20&	\$16,781&	8&	20&	\$16,246 \\
-10&	29&	\$24,610&	6&	29&	\$23,178 \\
-\midrule
-Mean&	28.2&	\$24,210&	Mean&	28.2&	\$22,854 \\
-\bottomrule
-\end{tabular}
-\end{table}
-\footnotesize
-$\widehat{ATT} = \$24,210 - \$22,854 = \$1,356$
+\begin{figure}[!t]\centering
+\includegraphics[scale=0.3]{./lecture_includes/matched_example}
+\end{figure}
+
 
 
 \end{frame}
@@ -1640,15 +1568,11 @@ $\widehat{ATT} = \$24,210 - \$22,854 = \$1,356$
 \begin{frame}{Estimated ATT using Exact Matching}
 
 
-Weak unconfoundedness of $Y^0$ with respect to age justified substituting one group for another
-
-\bigskip
-
-But matching bias still exists if you fail common support -- unconfoundedness is necessary but not sufficient
-
-\bigskip
-
-Even weak support is rare due to the curse of dimensionality
+\begin{itemize}
+\item Weak unconfoundedness of $Y^0$ with respect to age justifies substituting the comparison group for the missing treatment group $$\textcolor{red}{E[Y^0|D=1, X=x]} = E[Y^0|D=0, X=x]$$
+\item But unbiasedness requires exact matches -- unconfoundedness is necessary but not sufficient -- as we have to replace exactly on X
+\item Even weak support is rare due to the curse of dimensionality
+\end{itemize}
 
 \end{frame}
 
@@ -1670,7 +1594,7 @@ Even weak support is rare due to the curse of dimensionality
 	\begin{itemize}
 	\item If no matches can be found, it means many cells may contain either only treatment units or only control units but not both, and that violates our common support assumption
 	\item We can always use ``finer'' classifications, but finer cells worsens the dimensional problem, so we don't gain  much from that.  ex: using $10$ variables and $5$ categories for each, we get $5^{10} = 9,765,625$.  
-	\item Matching methods really force us to see these curses; they're often hidden from OLS because OLS uses extrapolations based off functional form
+	\item Matching methods really force us to see these curses; they're hidden with regressions because OLS imputes missing counterfactuals based off the linear functional form
 	\end{itemize}
 \end{frame}	
 
@@ -1683,8 +1607,8 @@ Even weak support is rare due to the curse of dimensionality
 \begin{itemize}
 \item When we can make synthetic xerox copies of ourselves, that's exact matching
 \item But what if we can only make similar copies of ourselves, like fraternal, but not identical, twins? That's nearest neighbor matching -- a form of ``inexact matching'', sort of like fraternal twins
-\item Introduces bias bc of inexact matching, but the magnitude of the bias depends on the severity of the discrepancy
-\item We can improve on nearest neighbor matching using bias adjustment (Abadie and Imbens 2011) 
+\item Introduces possible bias depending on heterogenous treatment effects, but the magnitude of the bias depends on the severity of the matching discrepancy
+\item We can improve on nearest neighbor matching using bias adjustment (Abadie and Imbens 2011) which uses an outcome regression to estimate the bias
 \end{itemize}
 
 \end{frame}
@@ -1812,30 +1736,30 @@ Let's do this together -- sometimes it helps to manually calculate this
 \end{frame}
 
 
-\begin{frame}{Inexact matching: Random match 1}
+%\begin{frame}{Inexact matching: Random match 1}
 
-\begin{figure}[!t]\centering
-\includegraphics[scale=0.45]{./lecture_includes/inexact_random1}
-\end{figure}
+%\begin{figure}[!t]\centering
+%\includegraphics[scale=0.45]{./lecture_includes/inexact_random1}
+%\end{figure}
 
-\end{frame}
+%\end{frame}
 
 
-\begin{frame}{Inexact matching: Random match 2}
+%\begin{frame}{Inexact matching: Random match 2}
 
-\begin{figure}[!t]\centering
-\includegraphics[scale=0.45]{./lecture_includes/inexact_random2}
-\end{figure}
+%\begin{figure}[!t]\centering
+%\includegraphics[scale=0.45]{./lecture_includes/inexact_random2}
+%\end{figure}
 
-\end{frame}
+%\end{frame}
 
 
 \begin{frame}{Minimizing the Euclidean distance}
 
 \begin{itemize}
-\item Abadie and Imbens (2006) show that there exists a unique solution to the matching problem that minimizes a given distance metric 
+\item We are minimizing Euclidean distance, and if that is not zero, then there is matching discreprancy
+\item And since it is a minimum, any other match will have more matching discreprancies
 \item \texttt{Matching} in R and \texttt{teffects} in Stata (not sure in python)
-\item But the idea here is that any other match will always have a higher Euclidean distance so I've drawn a picture!
 \end{itemize}
 
 \end{frame}
@@ -1852,13 +1776,13 @@ Let's do this together -- sometimes it helps to manually calculate this
 
  
 
-\begin{frame}{Inexact matching by minimizing the Euclidean distance}
+%\begin{frame}{Inexact matching by minimizing the Euclidean distance}
 
-\begin{figure}[!t]\centering
-\includegraphics[scale=0.45]{./lecture_includes/inexact_euclidean}
-\end{figure}
+%\begin{figure}[!t]\centering
+%\includegraphics[scale=0.45]{./lecture_includes/inexact_euclidean}
+%\end{figure}
 
-\end{frame}
+%\end{frame}
 
 \begin{frame}{Other distance metrics}
 
@@ -1913,7 +1837,7 @@ Let's do this together -- sometimes it helps to manually calculate this
 \item The larger the dimensions of the conditioning set, the less likely common support holds, and you can't not do it because you need these covariate dimensions to satisfy weak unconfoundedness!
 \item This problem is caused by the finite dataset, and it introduces a particular type of selection bias
 \item Curses are only overcome with new spells  
-\item Abadie and Imbens (2011) derived a way to reduce the bias (bias adjustment or bias correction)
+\item Abadie and Imbens (2011) derived a bias adjustment based on the unconfoundedness assumption and an outcome regression model
 \end{itemize}
 
 \end{frame}
@@ -2004,13 +1928,23 @@ The bias of the matching estimator is caused by large matching discrepancies $||
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{Intuition}
+
+\begin{itemize}
+\item Under unconfoundedness, we know that $$\textcolor{red}{E[Y^0|D=1, X=x]} = E[Y^0|D=0, X=x]$$
+\item This implies that whatever the relationship is between $Y^0$ and $X$ in the control group, it's the same in the treatment group, even though we cannot observe $Y^0$ in the treatment group
+\item We will therefore fit a regression of $Y^0$ onto $X$ in the $D=0$ group only and use that to predict $\widehat{Y^0}$ in both groups
+\end{itemize}
+
+\end{frame}
+
 
 \begin{frame}{Steps}
 
 \begin{enumerate}
 \item[1.  ]Regress $Y$ on $X$ with OLS except only use the control sample:
 \begin{equation}
-Y_j = \alpha + \beta X_j + \varepsilon_j \nonumber
+Y^0_j = \alpha + \beta X_j + \varepsilon_j \nonumber
 \end{equation}where $j$ are the units for which $D_j=0$.  
 \end{enumerate}
 
@@ -2128,6 +2062,12 @@ Y_j = \alpha + \beta X_j + \varepsilon_j \nonumber
 		\widehat{var}(Y_i | X_i,D_i=0) = \frac{(Y_i-Y_j)^2}{2}
 		\end{eqnarray*}is an unbiased estimator of $\widehat{var}(\varepsilon_i | X_i,D_i=0))$
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{Example}
+
+Let's now review the syntax in Stata.  It's called \texttt{matching.do} and is in /Labs/Matching
+
 \end{frame}
 
 
