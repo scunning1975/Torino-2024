@@ -51,6 +51,7 @@
 
 	gen earnings = treat*y1 + (1-treat)*y0
 	
+
 	** Nearest neighbor (mahanalobis distance minimization) matching (ATE, ATT)
 	* Matching model 1	 
 	teffects nnmatch (earnings age gpa age_sq gpa_sq agegpa) (treat), ate nn(1) metric(maha) 
@@ -63,3 +64,25 @@
 
 	* Matching model 4	 
 	teffects nnmatch (earnings age gpa age_sq gpa_sq agegpa) (treat), atet nn(1) metric(maha) biasadj(age age_sq gpa gpa_sq agegpa)
+
+	
+  ** IPW method for estimating ATT
+  logit treat age age_sq gpa gpa_sq interaction
+  
+  * predict propensity score
+  predict pscore
+
+  * inverse propensity score weights (ATT)
+  gen inv_ps_weight = treat + (1-treat) * pscore/(1-pscore)
+
+  * Estimation with IPW weights
+  reg earnings i.treat [aw=inv_ps_weight], robust
+  su att
+  
+  * Trim
+  drop if pscore<0.1 | pscore>0.9
+  reg earnings i.treat [aw=inv_ps_weight], robust
+  su att
+  su delta if treat==1 // parameter changed
+  
+  

@@ -2066,7 +2066,11 @@ Y^0_j = \alpha + \beta X_j + \varepsilon_j \nonumber
 
 \begin{frame}{Example}
 
-Let's now review the syntax in Stata.  It's called \texttt{matching.do} and is in /Labs/Matching
+Let's now review the syntax in Stata.  It's called \texttt{matching.do} and is in /Labs/Matching 
+
+\bigskip
+
+\url{https://github.com/scunning1975/Torino-2024/tree/main/Labs/Matching}
 
 \end{frame}
 
@@ -2372,8 +2376,9 @@ Standard errors can be constructed a few different ways:
 \begin{itemize}
 
 \item Assessing whether there are units it both groups for whichever parameter you're focused on is simple with propensity score as shown earlier using histograms of the propensity score for treated and control
-\item Crump, et al. (2009) suggest keeping propensity scores within the interval [0.1,0.9] (``trimming'') but any trimming will drop units and dropping units means moving away from the parameter
-\item Let's look at a picture again just to remind ourselves
+\item Crump, et al. (2009) suggest keeping propensity scores within the interval [0.1,0.9] (``trimming'') but any trimming will drop units and dropping units means we are not estimating the ATT
+\item We are rather estimating the average treatment effect for the remaining units satisfying overlap (ATTO or something)
+\item Let's look at a picture again just to remind ourselves (and we can look at \texttt{matching.do} again)
 
 \end{itemize}
 
@@ -2442,6 +2447,12 @@ Notice that since treated units are missing counterfactuals, but so are controls
 \item But you can do it manually using OLS and use  the propensity scores as analytical weights
 
 \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Simulation}
+
+Lets look at the \texttt{matching.do} again
 
 \end{frame}
 
