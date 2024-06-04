@@ -1,15 +1,15 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Selecting Covariates Using Directed Acyclic Graphs}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Graph notation}{5}{0}{1}
-\beamer@subsectionintoc {1}{2}{Backdoor criterion}{15}{0}{1}
-\beamer@subsectionintoc {1}{3}{Collider bias}{24}{0}{1}
-\beamer@sectionintoc {2}{Unconfoundedness}{40}{0}{2}
-\beamer@subsectionintoc {2}{1}{Aggregate target parameters}{41}{0}{2}
-\beamer@subsectionintoc {2}{2}{Aggregate treatment effect parameters}{43}{0}{2}
-\beamer@subsectionintoc {2}{3}{Assumptions}{44}{0}{2}
-\beamer@sectionintoc {3}{Estimators }{57}{0}{3}
-\beamer@subsectionintoc {3}{1}{Subclassification}{58}{0}{3}
-\beamer@subsectionintoc {3}{2}{Exact and Inexact Matching}{75}{0}{3}
-\beamer@subsectionintoc {3}{3}{Propensity scores}{129}{0}{3}
-\beamer@subsectionintoc {3}{4}{Regressions}{210}{0}{3}
-\beamer@sectionintoc {4}{Concluding remarks}{303}{0}{4}
+\beamer@subsectionintoc {1}{2}{Backdoor criterion}{14}{0}{1}
+\beamer@subsectionintoc {1}{3}{Collider bias}{23}{0}{1}
+\beamer@sectionintoc {2}{Unconfoundedness}{39}{0}{2}
+\beamer@subsectionintoc {2}{1}{Aggregate target parameters}{40}{0}{2}
+\beamer@subsectionintoc {2}{2}{Aggregate treatment effect parameters}{42}{0}{2}
+\beamer@subsectionintoc {2}{3}{Assumptions}{43}{0}{2}
+\beamer@sectionintoc {3}{Estimators }{56}{0}{3}
+\beamer@subsectionintoc {3}{1}{Subclassification}{57}{0}{3}
+\beamer@subsectionintoc {3}{2}{Exact and Inexact Matching}{74}{0}{3}
+\beamer@subsectionintoc {3}{3}{Propensity scores}{128}{0}{3}
+\beamer@subsectionintoc {3}{4}{Regressions}{209}{0}{3}
+\beamer@sectionintoc {4}{Concluding remarks}{302}{0}{4}

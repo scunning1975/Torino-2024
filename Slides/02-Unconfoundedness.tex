@@ -57,8 +57,8 @@
 \begin{itemize}
 
 \item Now we turn from potential outcomes modeling of causal effects to causal graphs
-\item Very important area, very common to see it in computer science intersections with data science, particularly tech, and often very advanced
 \item My focus is very narrow -- I am using it mainly to help us carefully reason through design elements around matching and instrumental variables
+\item But it is a very important area and you tend to see it increasingly in advanced causal inference, machine learning
 
 \end{itemize}
 
@@ -90,7 +90,13 @@
 
 
   \begin{itemize}
-    \item Judea Pearl and colleagues in Artificial Intelligence at UCLA developed DAG modeling to create a formalized causal inference methodology
+    \item Judea Pearl and colleagues in Artificial Intelligence at UCLA developed directed acyclic graphs (DAGs) modeling to create a formalized causal inference methodology
+    \item The letters mean this:
+    	\begin{itemize}
+	\item \textbf{D}: Directed.  This is a reference to graph theory.  Direct edges represent causal pathways from one variable to another
+	\item \textbf{A}: Acyclic.  This means that the causal pathway only moves in one direction.  No loops or feedbacks. Limits its ability to represent many things in economics (e.g., reverse causality, simultaneous equations)
+	\item \textbf{G}: Graphs. And this is also a reference to graph theory.  These are represented with a system of nodes and arrows
+	\end{itemize}
     \item They make causality concepts extremely clear, they provide a map to the estimation strategy, and maybe best of all, they communicate to others what must be true about the data generating process to recover the causal effect
   \end{itemize}
 
@@ -126,12 +132,22 @@
 \begin{frame}{Causal model}
 
   \begin{itemize}
-    \item The DAG is a sense  ``structural'' because it describes (correctly) a system of equations that determines the treatment, the outcome, and all relevant routes between them
-        \item Also called the structural model, but should not be confused with ``structural econometrics'' (e.g., Rust, Wolpin)
+  \item DAGs are not design based -- they are model based
+  \item DAGs use the prior information you have about the treatment assignment and the determinants of the outcome to model the various channels (both direct and through backdoors) that the treatment causes the outcome
+	\item If your knowledge of the DAG is correct, then identification of average treatment effects becomes straightforward -- but there are few ways to ``prove'' the DAG so their popularity among economists has been met with skepticism
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Causal model}
+
+  \begin{itemize}
+	\item But for the selection of covariates to be used in any method that controls for covariates, they are indispensable 
     \item Consider the following diagram representing the returns to education with simplified confounders
   \end{itemize}
 
 \end{frame}
+
 
 \begin{frame}[plain]
 
@@ -187,25 +203,6 @@
 
 \end{frame}
 
-\begin{frame}{Beware of Lazy DAGs}
-
-	\begin{itemize}
-	\item Lazy DAG building is \emph{extremely common} as the theory of DAGs and the practice of using DAGs is not the same thing
-	\item You are engaging in \emph{modeling the outcome} and if you are wrong, then the estimation is wrong
-	\item Part of what led to these design approaches was because that modeling of the outcome had been unsuccessful in empirical labor
-	\end{itemize}
-
-\end{frame}
-
-\begin{frame}{Concluding caveats}
-
-	\begin{itemize}
-	\item This is not to turn you off but to impress upon you that this is a very different enterprise which is why I mainly use it for selecting covariates and justifying instruments
-	\item But that said, it is an \emph{extremely} important area of causal inference
-	\item We will now turn to using DAGs for picking covariates using as ``controls''
-	\end{itemize}
-
-\end{frame}
 
 
 
@@ -215,12 +212,12 @@
 
 \subsection{Backdoor criterion}
 
-\begin{frame}{Unconfoundedness and the backdoor criterion}
+\begin{frame}{DAGs and covariates}
 
   \begin{itemize}
-
-    \item We will focus today on the unconfoundedness research design, which in my opinion is best described in causal graphs with the concept of the \textbf{backdoor criterion}
-    \item As we will see, the DAG helps you solve the problem of choosing covariates for a model to resolve selection bias, but to do so requires confidence in your DAG
+	\item We will use the DAG to motivate the selection of covariates that are necessary and sufficient to identify causal effects under unconfoundedness, which we will discuss momentarily
+    \item The selection of covariates are those covariates that satisfy the \textbf{backdoor criterion}, which we will explain momentarily
+    \item  DAGs help you choose covariates where covariate are the source of selection bias
   \end{itemize}
 
 \end{frame}
@@ -228,6 +225,7 @@
 \begin{frame}{Confounding}
 
   \begin{itemize}
+  	\item The covariates you need to control for under unconfoundedness are called \textbf{confounders}, as confounders create backdoor paths from treatment to outcome
           \item Confounders create differences in $D$ as well as differences in potential outcomes, and so therefore $X$ creates selection bias \\
 
           \begin{center}
@@ -245,7 +243,8 @@
             \end{tikzpicture}
           \end{center}
 
-          \item Our knowledge about this will enable us to obtain unbiased and consistent average treatment effects by adjusting for the distribution of $X$ in our samples
+          \item Our knowledge about this will enable us to select the correct covariates (but not necessarily the correct specification)
+          \item Let's look at \texttt{confounders.do} in our shared labs (/Labs/DAGs)
   \end{itemize}
 \end{frame}
 
