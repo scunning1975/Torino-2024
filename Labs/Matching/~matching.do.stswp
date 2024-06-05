@@ -55,7 +55,6 @@
 * Estimation
 ********************************************************************************
 	
-	
 	** Baseline regression model that assumes constant treatment effects
 	regress earnings age gpa age_sq gpa_sq agegpa treat, robust
 
@@ -72,7 +71,7 @@
 	* Matching model 4 for ATT with bias adjustment
 	teffects nnmatch (earnings age gpa age_sq gpa_sq agegpa) (treat), atet nn(1) metric(maha) biasadj(age age_sq gpa gpa_sq agegpa)
 	
-** Suggestion: remove covariates in bias adjustment formulas for the outcome regression model to help yourself better understand the importance of model misspecification in the bias	
+** Suggestion: remove covariates in bias adjustment formulas for the outcome regression model to help yourself better understand the importance of model misspecification in the bias adjustment 	
 
 	
   ** IPW method for estimating ATT
@@ -80,7 +79,12 @@
   
   * predict propensity score
   predict pscore
-
+  
+  * Plot the overlap of the propensity score
+  twoway (histogram age if treat==1,  color(green)) ///
+    (histogram age if treat==0,  ///
+    fcolor(none) lcolor(black)), legend(order(1 "Treated" 2 "Not treated" ))
+  
   * inverse propensity score weights (ATT)
   gen inv_ps_weight = treat + (1-treat) * pscore/(1-pscore)
 
