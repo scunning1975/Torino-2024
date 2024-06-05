@@ -61,20 +61,33 @@
 	* Use the switching equation to assign y1 or y0 to a unit based on their treatment status
 	gen earnings = treat*y1 + (1-treat)*y0
 
+********************************************************************************
+* Estimation
+********************************************************************************
+	
+** NNMATCH for ATT	
 	* Nearest neighbor matching without bias adjustment
 	teffects nnmatch (earnings age age_sq gpa gpa_sq interaction) (treat), atet nn(1) metric(euclidean) gen(match)
 	
 	* Nearest neighbor matching with bias adjustment
 	teffects nnmatch (earnings age age_sq gpa gpa_sq interaction) (treat), atet nn(1) metric(euclidean) biasadj(age age_sq gpa gpa_sq interaction)
 	
+** OLS	
+	
 	* OLS regressions - this regression assumes "constant treatment effects" and the coefficient on treat is trying to estimate the ATE. 
 	regress earnings age age_sq gpa gpa_sq interaction treat, robust
+
+** RA for ATT	
 	
-	* Regression adjustment
+	* Method 1: use TEFFECTS for Regression adjustment
 	teffects ra (earnings age age_sq gpa gpa_sq interaction) (treat), atet
+	mat b=e(b)
+	local ra = b[1,1]
+	scalar ra=`ra'
+	gen ra=`ra'
 	
 	
-	* Regression adjustment "the long way". At its core, regression adjustment "interacts" the treatment variable with all of the covariates. 	
+	* Method 2: Fully interact and recover parameters. Regression adjustment "the long way". At its core, regression adjustment "interacts" the treatment variable with all of the covariates. 	
 	
 	* First step is run the fully interacted regression.
 	#delimit ;
@@ -151,7 +164,7 @@ gen treat4 = 	treat_coef_var + /// 1
 sum delta if treat==1
 sum treat4 // regression adjustment "the long way"
 
-	* Regression adjustment "the medium way" (Kitagawa-Oaxaca-Blinder method)
+* Method 3. RA using Kitagawa-Oaxaca-Blinder 
 	
 	regress earnings age age_sq gpa gpa_sq c.age##c.gpa if treat == 0
 	predict y0_hat, xb
@@ -160,11 +173,14 @@ sum treat4 // regression adjustment "the long way"
 	predict y1_hat, xb
  
 	gen te_hat = y1_hat - y0_hat
-	sum te_hat if treat == 1
 	
-	* Regression adjustment using teffects ("the short way")
-	teffects ra (earnings age age_sq gpa gpa_sq interaction) (treat), atet
-				
+* Notice they're al
+	sum te_hat if treat == 1
+	su ra
+	su treat4
+	
+	
+	
 capture log close
 exit
 

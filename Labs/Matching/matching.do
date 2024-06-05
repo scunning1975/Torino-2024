@@ -54,22 +54,25 @@
 ********************************************************************************
 * Estimation
 ********************************************************************************
-		
+	
+	
 	** Baseline regression model that assumes constant treatment effects
 	regress earnings age gpa age_sq gpa_sq agegpa treat, robust
 
 	** Nearest neighbor (mahanalobis distance minimization) matching (ATE, ATT)
-	* Matching model 1	 
+	* Matching model 1 for ATE
 	teffects nnmatch (earnings age gpa age_sq gpa_sq agegpa) (treat), ate nn(1) metric(maha) 
 
-	* Matching model 2
+	* Matching model 2 for ATT
 	teffects nnmatch (earnings age gpa age_sq gpa_sq agegpa) (treat), atet nn(1) metric(maha) 
 	
-	* Matching Model 3
+	* Matching Model 3 for ATE with bias adjustment
 	teffects nnmatch (earnings age gpa age_sq gpa_sq agegpa) (treat), ate nn(1) metric(maha) biasadj(age age_sq gpa gpa_sq agegpa)
 
-	* Matching model 4	 
+	* Matching model 4 for ATT with bias adjustment
 	teffects nnmatch (earnings age gpa age_sq gpa_sq agegpa) (treat), atet nn(1) metric(maha) biasadj(age age_sq gpa gpa_sq agegpa)
+	
+** Suggestion: remove covariates in bias adjustment formulas for the outcome regression model to help yourself better understand the importance of model misspecification in the bias adjustment 	
 
 	
   ** IPW method for estimating ATT
