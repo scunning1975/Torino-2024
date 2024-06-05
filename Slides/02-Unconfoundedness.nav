@@ -632,8 +632,14 @@
 \headcommand {\beamer@framepages {311}{311}}
 \headcommand {\slideentry {4}{0}{11}{312/312}{}{0}}
 \headcommand {\beamer@framepages {312}{312}}
-\headcommand {\beamer@partpages {1}{312}}
-\headcommand {\beamer@subsectionpages {302}{312}}
-\headcommand {\beamer@sectionpages {302}{312}}
-\headcommand {\beamer@documentpages {312}}
-\headcommand {\gdef \inserttotalframenumber {301}}
+\headcommand {\slideentry {4}{0}{12}{313/313}{}{0}}
+\headcommand {\beamer@framepages {313}{313}}
+\headcommand {\slideentry {4}{0}{13}{314/314}{}{0}}
+\headcommand {\beamer@framepages {314}{314}}
+\headcommand {\slideentry {4}{0}{14}{315/315}{}{0}}
+\headcommand {\beamer@framepages {315}{315}}
+\headcommand {\beamer@partpages {1}{315}}
+\headcommand {\beamer@subsectionpages {302}{315}}
+\headcommand {\beamer@sectionpages {302}{315}}
+\headcommand {\beamer@documentpages {315}}
+\headcommand {\gdef \inserttotalframenumber {304}}

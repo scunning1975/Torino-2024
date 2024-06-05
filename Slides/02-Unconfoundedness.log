@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.14)  4 JUN 2024 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.14)  5 JUN 2024 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2904,24 +2904,52 @@ nput line 4136.
 
 ] [305
 
-] [306
-
-] [307
-
-] [308
-
 ]
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/l/it' aliased to
-(Font)              `OT1/Roboto-LF/light/it' on input line 4324.
-LaTeX Font Info:    Font shape `OT1/Roboto-LF/light/it' will be
-(Font)              scaled to size 9.0pt on input line 4324.
- [309
+<./lecture_includes/dinardo_restat.png, id=2243, 1585.925pt x 499.36563pt>
+File: ./lecture_includes/dinardo_restat.png Graphic file (type png)
+<use ./lecture_includes/dinardo_restat.png>
+Package pdftex.def Info: ./lecture_includes/dinardo_restat.png  used on input l
+ine 4285.
+(pdftex.def)             Requested size: 317.17938pt x 99.87135pt.
+ [306
+
+ <./lecture_includes/dinardo_restat.png>]
+<./lecture_includes/tymon_ra.png, id=2251, 974.13937pt x 684.05562pt>
+File: ./lecture_includes/tymon_ra.png Graphic file (type png)
+<use ./lecture_includes/tymon_ra.png>
+Package pdftex.def Info: ./lecture_includes/tymon_ra.png  used on input line 42
+95.
+(pdftex.def)             Requested size: 292.24406pt x 205.21826pt.
+ [307
+
+ <./lecture_includes/tymon_ra.png>]
+<./lecture_includes/imbens_xu_checklist.png, id=2260, 904.37875pt x 581.67313pt
+>
+File: ./lecture_includes/imbens_xu_checklist.png Graphic file (type png)
+<use ./lecture_includes/imbens_xu_checklist.png>
+Package pdftex.def Info: ./lecture_includes/imbens_xu_checklist.png  used on in
+put line 4306.
+(pdftex.def)             Requested size: 271.31572pt x 174.50328pt.
+ [308
+
+ <./lecture_includes/imbens_xu_checklist.png>] [309
 
 ] [310
 
 ] [311
 
-] [312
+]
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/l/it' aliased to
+(Font)              `OT1/Roboto-LF/light/it' on input line 4356.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/light/it' will be
+(Font)              scaled to size 9.0pt on input line 4356.
+ [312
+
+] [313
+
+] [314
+
+] [315
 
 ]
 \tf@nav=\write6
@@ -2933,8 +2961,7 @@ LaTeX Font Info:    Font shape `OT1/Roboto-LF/light/it' will be
 \tf@snm=\write8
 \openout8 = `02-Unconfoundedness.snm'.
 
-
-(./02-Unconfoundedness.aux)
+ (./02-Unconfoundedness.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2942,10 +2969,10 @@ Package rerunfilecheck Info: File `02-Unconfoundedness.out' has not changed.
 (rerunfilecheck)             Checksum: B5839A85BCF101EBDE063B4A3968F4EC;2245.
  ) 
 Here is how much of TeX's memory you used:
- 50782 strings out of 476025
- 1162031 string characters out of 5790017
+ 50827 strings out of 476025
+ 1163442 string characters out of 5790017
  1870388 words of memory out of 5000000
- 69336 multiletter control sequences out of 15000+600000
+ 69372 multiletter control sequences out of 15000+600000
  568505 words of font info for 222 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,1016b,1006s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2976,10 +3003,10 @@ ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
 2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/20
 23/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 02-Unconfoundedness.pdf (312 pages, 28821549 bytes).
+Output written on 02-Unconfoundedness.pdf (315 pages, 29961295 bytes).
 PDF statistics:
- 2548 PDF objects out of 2984 (max. 8388607)
- 2057 compressed objects within 21 object streams
- 647 named destinations out of 1000 (max. 500000)
- 64907 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 2576 PDF objects out of 2984 (max. 8388607)
+ 2076 compressed objects within 21 object streams
+ 653 named destinations out of 1000 (max. 500000)
+ 64922 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -54,7 +54,8 @@
 ********************************************************************************
 * Estimation
 ********************************************************************************
-		
+	
+	
 	** Baseline regression model that assumes constant treatment effects
 	regress earnings age gpa age_sq gpa_sq agegpa treat, robust
 
