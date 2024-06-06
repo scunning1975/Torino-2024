@@ -1,0 +1,14 @@
+\beamer@sectionintoc {1}{Introducing Regression Discontinuity Design}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Basic background}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Identification Basics}{18}{0}{1}
+\beamer@subsectionintoc {1}{3}{Sharp Design}{26}{0}{1}
+\beamer@subsectionintoc {1}{4}{Smoothness and Identification}{34}{0}{1}
+\beamer@sectionintoc {2}{Estimation}{40}{0}{2}
+\beamer@subsectionintoc {2}{1}{Local Regressions}{41}{0}{2}
+\beamer@subsectionintoc {2}{2}{Nonparametric estimation}{54}{0}{2}
+\beamer@subsectionintoc {2}{3}{Testing for violations}{80}{0}{2}
+\beamer@subsectionintoc {2}{4}{Data Visualization}{99}{0}{2}
+\beamer@sectionintoc {3}{Examples}{115}{0}{3}
+\beamer@subsectionintoc {3}{1}{DWI and recidivism}{116}{0}{3}
+\beamer@subsectionintoc {3}{2}{Close election design}{128}{0}{3}
+\beamer@subsectionintoc {3}{3}{Fuzzy RDD}{142}{0}{3}
