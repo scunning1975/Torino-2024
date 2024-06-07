@@ -12,7 +12,7 @@ capture log close
 * net install rdrobust, from(https://raw.githubusercontent.com/rdpackages/rdrobust/master/stata) replace
 * ssc install rdrobust, replace
 * net install rddensity, from(https://raw.githubusercontent.com/rdpackages/rddensity/master/stata) replace
-net install lpdensity, from(https://raw.githubusercontent.com/nppackages/lpdensity/master/stata) replace
+* net install lpdensity, from(https://raw.githubusercontent.com/nppackages/lpdensity/master/stata) replace
 * ssc install cmogram
 
 use https://github.com/scunning1975/causal-inference-class/raw/master/hansen_dwi, clear
@@ -44,18 +44,26 @@ cmogram white bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, cut(0.08) line(0.0
 cmogram aged bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, cut(0.08) line(0.08) lfit
 cmogram acc bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, cut(0.08) line(0.08) lfit
 
+* Use rdplot to make the same pictures
+rdplot male bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, p(1) c(0.08) kernel(triangular) bwselect(msetwo)
+
+
 * Main results. Use figures
 cmogram recid bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, scatter cut(0.08) line(0.08) lfit histopts(bin(30))
-cmogram recid bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, scatter cut(0.08) line(0.08) qfit histopts(bin(30))
+cmogram recid bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, scatter cut(0.08) line(0.08) qfitci histopts(bin(30))
 
+rdplot recid bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, p(0) c(0.08) kernel(triangular) bwselect(msetwo)
 rdplot recid bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, p(1) c(0.08) kernel(triangular) bwselect(msetwo)
 rdplot recid bac1_orig if bac1_orig>=0.03 & bac1_orig<=0.13, p(2) c(0.08) kernel(triangular) bwselect(msetwo)
 
-* Main results. local polynomial regressions with triangular kernel
+* Main results. local polynomial regressions with rectangular kernel
 gen bac1_sq = bac1^2
+
+reg recid dui if bac1_orig>=0.03 & bac1_orig<=0.13, robust
 reg recid dui##c.bac1 if bac1_orig>=0.03 & bac1_orig<=0.13, robust
 reg recid dui##c.(bac1 bac1_sq) if bac1_orig>=0.03 & bac1_orig<=0.13, robust
 
+* Main results. local polynomial regressions with triangular kernel
 rdrobust recidivism bac1_orig, p(0) c(0.08) kernel(triangular) bwselect(msetwo) all
 rdrobust recidivism bac1_orig, p(1) c(0.08) kernel(triangular) bwselect(msetwo) all
 rdrobust recidivism bac1_orig, p(2) c(0.08) kernel(triangular) bwselect(msetwo) all
