@@ -85,7 +85,6 @@
     (histogram age if treat==0,  ///
     fcolor(none) lcolor(black)), legend(order(1 "Treated" 2 "Not treated" ))
   
-
   * inverse propensity score weights (ATT)
   gen inv_ps_weight = treat + (1-treat) * pscore/(1-pscore)
 
