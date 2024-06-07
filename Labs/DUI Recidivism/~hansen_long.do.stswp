@@ -12,7 +12,7 @@ capture log close
 * net install rdrobust, from(https://raw.githubusercontent.com/rdpackages/rdrobust/master/stata) replace
 * ssc install rdrobust, replace
 * net install rddensity, from(https://raw.githubusercontent.com/rdpackages/rddensity/master/stata) replace
-* net install lpdensity, from(https://raw.githubusercontent.com/nppackages/lpdensity/master/stata) replace
+net install lpdensity, from(https://raw.githubusercontent.com/nppackages/lpdensity/master/stata) replace
 * ssc install cmogram
 
 use https://github.com/scunning1975/causal-inference-class/raw/master/hansen_dwi, clear
